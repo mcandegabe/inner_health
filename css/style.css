@@ -1,0 +1,221 @@
+@font-face { 
+    font-family: "Poppins, sans-serif"; 
+    src: url("./fonts/Poppins-Regular.ttf"); 
+} 
+/** Inicio Estilos genéricos web **/
+body {
+    display: block;
+    margin: 0px;
+}
+.main_index h1 {
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    color: #043e60;
+}
+.index_sitios h2{
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    color: #043e60;
+}
+.index_sitios h2 a{
+    font-size: 28px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: #29b266;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+h3{
+    font-size: 23px;
+    font-family: Poppins, sans-serif;
+    color: #29b266;
+}
+p, a{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: black;
+}
+/** Final Estilos genéricos web **/
+
+/** Inicio Estilos Header **/
+header {
+    margin: 0px 20px;
+    border-radius: 5px;
+    position: sticky; 
+    top: 0;
+    background-color: #d2f1ee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    box-shadow: 2px 2px 1px #3b6d6970;
+    -moz-box-shadow: 2px 2px 1px #3b6d6970;
+}
+.header__index img {
+    margin: 15px 30px 15px 30px;
+    padding: 10px;
+    max-height: 55px;
+}
+.header__index a {
+    color: #043e60;
+    text-decoration: none;
+}
+.pil-navegacion .enlace-nav.activo { 
+    background-color: #224744;
+    color: white;
+}
+
+/** Final Estilos Header **/
+
+/** Inicio Estilos Main + Vision/Mision **/
+
+.main_index {
+    text-align: center;
+    align-items: center;
+}
+#vision_mision{
+    background-color: #ecf8f6;
+    border-radius: 5px;
+    padding: 20px;
+}
+.mision, .vision{
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.mision img{
+    justify-self: right;
+}
+.mision, .vision h3{
+    font-family: Poppins, sans-serif;
+    color: #29b266;
+}
+.vision img{
+    justify-self: left;
+}
+/** Fin Estilos Main + Vision/Mision **/
+
+/** Inicio Index Sitios **/
+.index_sitios {
+    margin: 30px;
+    text-align: center;
+}
+.index_sitios div {
+    margin: 25px;
+}
+.index_sitios hr{
+    color: #224744;
+}
+.index_sitios a{
+    background-color:#5bb0a7;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    max-width: fit-content;
+    align-self: center;
+    justify-self: center;
+    grid-area: sitios__btn;
+}
+.index_sitios a:hover{
+    background-color:#5b6bb0;
+}
+.index__capt{
+    margin: 0px 20px 0px 20px;
+    margin-right: 14px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    box-shadow: 3px 3px 1px #224744;
+    -moz-box-shadow: 3px 3px 1px #224744;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    grid-area: capt;
+}
+.index__capt:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.index__iso{
+    width:100%;
+    max-width:200px;
+    grid-area: sitios__isologo;
+}
+.index_sitios h3{
+    grid-area: sitios__titulo;
+}
+.index_sitios p{
+    padding: 20px;
+    grid-area: sitios__descrip;
+}
+.sitios__der{
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: max-content;
+    grid-template-areas:
+    "capt sitios__isologo"
+    "capt sitios__descrip"
+    "capt sitios__btn";
+}
+.sitios__izq{
+    place-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: max-content;
+    grid-template-areas:
+    "sitios__isologo capt"
+    "sitios__descrip capt"
+    "sitios__btn capt";
+}
+
+/** Inicio Desarrollo Sitios **/
+.descrip_sitios {
+    background-color: #ecf8f6;
+    margin: 15px 30px 15px 30px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-flow: row;
+}
+.desarrollo_sitios {
+    margin: 10px 25px 10px 25px;
+}
+.desarrollo_sitios div {
+    margin: 25px;
+}
+.desarrollo_sitios a{
+    background-color:#5bb0a7;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 10px 25px 10px 25px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.desarrollo_sitios{
+    display: grid;
+}
+/** Fin Desarrollo  Sitios **/
+
+footer {
+    display: inline-block;
+    background-color: #043e60;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+footer a, footer p{
+    color: #ecf8f6;
+    align-items: center;
+    text-decoration: none;
+}
