@@ -13,27 +13,42 @@
     <title>Inner Health Group LLC</title>
 </head>
 <body>
-    <!-- inicio encabezado -->
-    <header class="header__index">
-        <a href="./index.html"><img src="./images/isologo_inner_horizontal.png" alt="Inner Health Group, Conectando la sabiduría de la naturaleza con la comodidad de la tecnología"></a>
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link " href="./html/universidad.html">UniversidadCandegabe.org</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="./html/algoritmo.html">AlgoritmoCandegabe.com</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="./html/flowers.html">FlowersCode.com</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="./html/contacto.html">Contacto</a>
-        </nav>
+     <!-- inicio encabezado -->
+    <header> 
+        <nav class="header__index navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="./index.html"><img src="./images/isologo_inner_horizontal.png" alt="Inner Health Group, Conectando la sabiduría de la naturaleza con la comodidad de la tecnología"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="flex-sm-fill text-sm-center nav-link " href="./html/universidad.html">UniversidadCandegabe.org</a>
+                </li>
+                <li class="nav-item">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="./html/algoritmo.html">AlgoritmoCandegabe.com</a>
+                </li>
+                <li class="nav-item">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="./html/flowers.html">FlowersCode.com</a>
+                </li>
+                <li class="nav-item">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="./html/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
     <!-- fin encabezado -->
     <!-- inicio main -->
     <main>
         <div class="main_index">
-            <img src="./images/isologo_innerhealth.png" alt="Inner Health Group, Conectando la sabiduría de la naturaleza con la comodidad de la tecnología">
+            <img class="img-fluid" src="./images/isologo_innerhealth.png" alt="Inner Health Group, Conectando la sabiduría de la naturaleza con la comodidad de la tecnología">
             <h1>Conectando la sabiduría de la naturaleza con la comodidad de la tecnología</h1>
         </div>
     <!-- inicio cuerpo -->
     <section class="container" id="vision_mision">
         <div class="row mision">
-            <div class="col-sm-12 col-md-2 col-lg-2">
+            <div class="col-sm-12 col-md-2 col-lg-2 img__centrada_sm">
             <img class="img-fluid" src="./images/mision.png" alt="Nuestra Misión:Facilitar el acceso a la educación en línea y a herramientas digitales avanzadas para la formación y práctica de terapeutas en homeopatía, impregnología y terapias naturales, contribuyendo así al bienestar y la salud de las personas y la sociedad en general.">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
@@ -41,49 +56,97 @@
                 <p>Facilitar el acceso a la educación en línea y a herramientas digitales avanzadas para la formación y práctica de terapeutas en homeopatía, impregnología y terapias naturales, contribuyendo así al bienestar y la salud de las personas y la sociedad en general.</p>
             </div>
         </div>
-        <div class="row vision">
-            <div class="col-sm-12 col-md-6	col-lg-6">
+        <div class="row vision flex-column-reverse flex-md-row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>Visión</h3>
             <p>Ser la plataforma líder en línea en la formación de terapeutas en homeopatía, impregnología y terapias naturales, y en proveer herramientas digitales innovadoras para el desarrollo de prácticas efectivas y eficientes.</p>
             </div>
-            <div class="col-sm-12 col-md-2	col-lg-2">
+            <div class="col-sm-12 col-md-2	col-lg-2 img__centrada_sm">
             <img class="img-fluid" src="./images/vision.png" alt="Nuestra Visión: Ser la plataforma líder en línea en la formación de terapeutas en homeopatía, impregnología y terapias naturales, y en proveer herramientas digitales innovadoras para el desarrollo de prácticas efectivas y eficientes.">
             </div>
         </div>
     </section>
-    <section class="index_sitios">
-        <h2>Nuestros Prodctos y Proyectos</h2>
-        <div class="sitios__der zoom_capt">
-            <img class="index__iso" src="./images/isologo_universidad.png" alt="Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana">
-            <p>Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana</p>
-            <a href="./html/universidad.html">Conozca más</a>
-            <img class= "index__capt" src="./images/universidad.png" alt="Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana">
+    <section class="container-fluid index_sitios">
+        <h2 class="col-12">Nuestros Prodctos y Proyectos</h2>
+        <div class="row sitios">
+            <div class="col-sm-11 col-md-5	col-lg-5">
+                <img class="index__iso" src="./images/isologo_universidad.png" alt="Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana">
+                <p>Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana</p>
+                <a href="./html/universidad.html">Conozca más</a>
+            </div>
+            <img class="col-sm-11 col-md-5 col-lg-5 index__capt" src="./images/universidad.png" alt="Institución de educación online y a distancia. Su casa de Altos Estudios en Homeopatía y Terapéuticas para el Enriquecimiento de la Conciencia Humana">
         </div>
         <hr>
-        <div class="sitios__izq zoom_capt">
+        <div class="row sitios">
+            <div class="col-sm-11 col-md-5 col-lg-5">
             <img class="index__iso" src="./images/isologo_algoritmo.png" alt="Método H.U.M.A. Una aproximación hacia un paradigma matemático de la Homeopatía: un código fonético numérico como el nuevo parámetro.">
             <p>Una aproximación hacia un paradigma matemático de la Homeopatía: un código fonético numérico como el nuevo parámetro.</p>
             <a href="./html/algoritmo.html">Conozca más</a>
-            <img class= "index__capt" src="./images/algoritmo.png" alt="Método H.U.M.A. Una aproximación hacia un paradigma matemático de la Homeopatía: un código fonético numérico como el nuevo parámetro.">
+            </div>
+            <img class= "col-sm-11 col-md-5 col-lg-5 index__capt" src="./images/algoritmo.png" alt="Método H.U.M.A. Una aproximación hacia un paradigma matemático de la Homeopatía: un código fonético numérico como el nuevo parámetro.">
         </div>
         <hr>
-        <div class="sitios__der">
+        <div class=" row sitios">
+            <div class="col-sm-11 col-md-5 col-lg-5">
             <img class="index__iso" src="./images/isologo_flores.png" alt="El Código de las Flores, la mejor herramienta para el Terapeuta Floral">
             <p>La mejor herramienta para el Terapeuta Floral</p>
             <a href="./html/flowers.html">Conozca más</a>
-            <img class= "index__capt" src="./images/flowers.png" alt="El Código de las Flores, la mejor herramienta para el Terapeuta Floral">
+            </div>
+            <img class= "col-sm-11 col-md-5 col-lg-5 index__capt" src="./images/flowers.png" alt="El Código de las Flores, la mejor herramienta para el Terapeuta Floral">
         </div>
     </section>
     <!-- fin cuerpo -->
 </main>
 <!-- fin main -->
-    <footer>
-        <a href="./html/universidad.html">Universidad Candegabe</a>
-        <a href="./html/algoritmo.html">Algoritmo Candegabe</a>
-        <a href="./html/flowers.html">Flowers Code</a>
-        <a href="./html/contacto.html">Contacto</a>
-        <p>728 SW 100th Court Cicle, Miami FL 33174, USA</p>
-        <p>© 2023 Inner Health Group LLC.  All rights reserved.</p>
-    </footer>
+<footer class="text-white text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container-fluid p-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Inner health Group LLC</h5>
+          
+                  <p>
+                    728 SW 100th Court Cicle, Miami FL 33174, USA
+                  </p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2573753939696!2d-80.36091432486562!3d25.762061077351778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b8d1325b1749%3A0xd5dbcff92a632581!2s728%20SW%20100th%20Ct%20Cir%2C%20Miami%2C%20FL%2033174%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1682694645829!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Productos y Proyectos</h5>
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="./html/universidad.html" class="text-white">Universidad Candegabe</a>
+                    </li>
+                    <li>
+                      <a href="./html/algoritmo.html" class="text-white">Algoritmo Candegabe</a>
+                    </li>
+                    <li>
+                      <a href="./html/flowers.html" class="text-white">Flowers Code</a>
+                    </li>
+                    <li>
+                      <a href="./html/contacto.html" class="text-white">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              2023 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">InnerHealthGrp.com</a>
+            </div>
+            <!-- Copyright -->
+</footer>
 </body>
 </html>
