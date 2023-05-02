@@ -32,10 +32,11 @@ h3{
     font-family: Poppins, sans-serif;
     color: #29b266;
 }
-p, a{
+p, a, .desarrollo_webs p{
     font-size: 16px;
     font-family: Poppins, sans-serif;
     color: black;
+    text-align: justify;
 }
 /** Final Estilos genéricos web **/
 
@@ -90,7 +91,8 @@ header {
     align-items: center;
     margin: 15px;
 }
-.mision, .vision h3{
+.mision, .vision, .desarrollo_webs h3{
+    font-size: 23px;
     font-family: Poppins, sans-serif;
     color: #29b266;
 }
@@ -145,14 +147,11 @@ header {
 .index__iso{
     width:100%;
     max-width:200px;
-    grid-area: sitios__isologo;
 }
 .index_sitios h3{
-    grid-area: sitios__titulo;
 }
 .index_sitios p{
     padding: 20px;
-    grid-area: sitios__descrip;
 }
 .sitios{
     place-items: center;
@@ -166,7 +165,19 @@ header {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 1px 1px 1px 1px #29b26685;
-    justify-content: center;
+}
+#inicio_sitios{
+    text-align: -webkit-center;
+}
+.actividad {
+    background-color: #5bb0a7;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
 }
 /** Fin Desarrollo  Sitios **/
 
