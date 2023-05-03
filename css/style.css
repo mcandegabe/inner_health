@@ -148,8 +148,7 @@ header {
     width:100%;
     max-width:200px;
 }
-.index_sitios h3{
-}
+
 .index_sitios p{
     padding: 20px;
 }
@@ -179,6 +178,24 @@ header {
     font-weight: bolder;
     font-size: 25px;
 }
+.actividad:hover{
+    background-color:#5b6bb0;
+}
+#head_sitios_algoritmo{
+    margin: 30px;
+    background-color: #e178002d;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #e1780076;
+}
+#head_sitios_flores{
+    margin: 30px;
+    background-color: #3483d31e;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #3484D3;
+}
+
 /** Fin Desarrollo  Sitios **/
 
 footer {
@@ -191,4 +208,7 @@ footer a, footer p{
     color: #ecf8f6;
     align-items: center;
     text-decoration: none;
+}
+footer .maps{
+    position: relative;
 }
