@@ -1,0 +1,75 @@
+@font-face { 
+    font-family: "Poppins, sans-serif"; 
+    src: url("./fonts/Poppins-Regular.ttf"); 
+} 
+/** Inicio Estilos genéricos web **/
+body {
+    display: block;
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    h1 {
+        font-size: 35px;
+        color: #043e60;
+    }
+    h2{
+        font-size: 30px;
+        color: #043e60;
+        a{
+            font-size: 28px;
+            font-weight: bolder;
+            color: #29b266;
+            text-decoration: none;
+            font-style: italic;
+            letter-spacing: 5px;
+        }
+    }
+    h3{
+        font-size: 23px;
+        color: #29b266;
+    }
+    p, a, .desarrollo_webs p{
+        font-size: 16px;
+        color: black;
+        text-align: justify;
+    }
+}
+/** Final Estilos genéricos web **/
+/** Inicio Estilos Header **/
+header {
+    margin: 0px 20px;
+    border-radius: 5px;
+    position: sticky; 
+    top: 0;
+    background-color: #d2f1ee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    box-shadow: 2px 2px 1px #3b6d6970;
+    -moz-box-shadow: 2px 2px 1px #3b6d6970;
+    img {
+        margin: 15px 30px 15px 30px;
+        padding: 10px;
+        max-height: 70px;
+    }
+    a {
+        display: block;
+        padding: 5px 10px;
+        font-size: 17px;
+        font-weight:600;
+        color: #043e60;
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+}
+.pil-navegacion .enlace-nav.activo { 
+    background-color: #224744;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #3b6d6970;
+}
+/** Final Estilos Header **/

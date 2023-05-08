@@ -7,24 +7,17 @@ body {
     display: block;
     margin: 0px;
 }
-body h1 {
+.main_index h1 {
     font-size: 35px;
     font-family: Poppins, sans-serif;
     color: #043e60;
 }
-body h2{
+.main h2{
     font-size: 30px;
     font-family: Poppins, sans-serif;
     color: #043e60;
 }
-
-body h3{
-    font-size: 23px;
-    font-family: Poppins, sans-serif;
-    color: #29b266;
-}
-
-body h2 a{
+.index_sitios h2 a{
     font-size: 28px;
     font-family: Poppins, sans-serif;
     font-weight: bolder;
@@ -34,6 +27,11 @@ body h2 a{
     letter-spacing: 5px;
 }
 
+h3{
+    font-size: 23px;
+    font-family: Poppins, sans-serif;
+    color: #29b266;
+}
 p, a, .desarrollo_webs p{
     font-size: 16px;
     font-family: Poppins, sans-serif;
@@ -58,23 +56,15 @@ header {
     box-shadow: 2px 2px 1px #3b6d6970;
     -moz-box-shadow: 2px 2px 1px #3b6d6970;
 }
-header img {
+.header__index img {
     margin: 15px 30px 15px 30px;
     padding: 10px;
-    max-height: 70px;
+    max-height: 55px;
 }
-header a {
-        display: block;
-        padding: 5px 10px;
-        font-size: 17px;
-        font-weight:600;
-        color: #043e60;
-        text-decoration: none;
-        background: 0 0;
-        border: 0;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+.header__index a {
+    color: #043e60;
+    text-decoration: none;
 }
-
 .pil-navegacion .enlace-nav.activo { 
     background-color: #224744;
     color: white;
