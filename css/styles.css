@@ -51,6 +51,7 @@ header {
   align-items: center;
   box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
   -moz-box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
+  z-index: 1;
 }
 header img {
   margin: 15px 30px 15px 30px;
@@ -77,5 +78,156 @@ header a {
 }
 
 /** Final Estilos Header **/
+/** Inicio Estilos Main + Vision/Mision **/
+.main_index {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#vision_mision {
+  background-color: rgba(91, 107, 176, 0.1490196078);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(91, 107, 176, 0.7803921569);
+}
+#vision_mision .mision, #vision_mision .vision, #vision_mision .desarrollo_webs {
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+#vision_mision .mision h3, #vision_mision .vision h3, #vision_mision .desarrollo_webs h3 {
+  font-size: 23px;
+  font-family: Poppins, sans-serif;
+  color: #29b266;
+}
+#vision_mision .mision .img__centrada_sm, #vision_mision .vision .img__centrada_sm, #vision_mision .desarrollo_webs .img__centrada_sm {
+  text-align: center;
+}
+
+/** Fin Estilos Main + Vision/Mision **/
+/** Inicio Index Sitios **/
+.index_sitios {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(41, 178, 102, 0.0901960784);
+}
+.index_sitios h2 {
+  margin: 20px;
+}
+.index_sitios hr {
+  margin: 30px 10px 30px 10px;
+  color: #224744;
+}
+.index_sitios a {
+  background-color: #5bb0a7;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  max-width: fit-content;
+  align-self: center;
+  justify-self: center;
+}
+.index_sitios a:hover {
+  background-color: #5b6bb0;
+}
+.index_sitios p {
+  padding: 20px;
+}
+.index_sitios .index__iso {
+  width: 100%;
+  max-width: 200px;
+}
+.index_sitios .sitios {
+  place-items: center;
+  justify-content: center;
+}
+.index_sitios img {
+  padding-right: 0px;
+}
+
+.index__capt {
+  margin: 30px 0px;
+  border-radius: 20px;
+  display: block;
+  float: left;
+  box-shadow: 2px 2px 1px #224744;
+  -moz-box-shadow: 2px 2px 1px #224744;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.index__capt:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/** Fin Index Sitios **/
+/** Inicio Desarrollo Sitios **/
+#inicio_sitios {
+  text-align: -webkit-center;
+}
+#inicio_sitios #head_sitio_universidad {
+  margin: 30px;
+  background-color: rgba(41, 178, 102, 0.1490196078);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(41, 178, 102, 0.5215686275);
+}
+#inicio_sitios #head_sitio_algoritmo {
+  margin: 30px;
+  background-color: rgba(225, 120, 0, 0.1764705882);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(225, 120, 0, 0.462745098);
+}
+#inicio_sitios #head_sitio_flores {
+  margin: 30px;
+  background-color: rgba(52, 131, 211, 0.1176470588);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px #3484D3;
+}
+
+.desarrollo_webs a {
+  background-color: #5bb0a7;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.desarrollo_webs a:hover {
+  background-color: #5b6bb0;
+}
+
+/** Fin Desarrollo Sitios **/
+/** Inicio Footer **/
+footer {
+  background-color: #043e60;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  align-items: center;
+}
+footer h5 {
+  text-align: center;
+}
+footer p, footer ul, footer a {
+  color: #ecf8f6;
+  text-decoration: none;
+  text-align: center;
+}
+footer .maps {
+  position: relative;
+  text-align: center;
+}
+
+/** Fin Footer **/
 
 /*# sourceMappingURL=styles.css.map */
