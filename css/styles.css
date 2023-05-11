@@ -159,32 +159,29 @@ header a {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-
 .index__capt:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-/** Fin Index Sitios **/
-/** Inicio Desarrollo Sitios **/
-#inicio_sitios {
+.index__capt #inicio_sitios {
   text-align: -webkit-center;
 }
-#inicio_sitios #head_sitio_universidad {
+.index__capt #inicio_sitios #head_sitio_universidad {
   margin: 30px;
   background-color: rgba(41, 178, 102, 0.1490196078);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 1px 1px 1px 1px rgba(41, 178, 102, 0.5215686275);
 }
-#inicio_sitios #head_sitio_algoritmo {
+.index__capt #inicio_sitios #head_sitio_algoritmo {
   margin: 30px;
   background-color: rgba(225, 120, 0, 0.1764705882);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 1px 1px 1px 1px rgba(225, 120, 0, 0.462745098);
 }
-#inicio_sitios #head_sitio_flores {
+.index__capt #inicio_sitios #head_sitio_flores {
   margin: 30px;
   background-color: rgba(52, 131, 211, 0.1176470588);
   border-radius: 15px;

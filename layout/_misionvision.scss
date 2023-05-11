@@ -1,0 +1,23 @@
+.main_index {
+    text-align: center;
+    margin-top: 20px;
+}
+#vision_mision{
+    background-color: #5b6bb026;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #5b6bb0c7;
+    .mision, .vision, .desarrollo_webs{
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        h3{
+            font-size: 23px;
+            font-family: Poppins, sans-serif;
+            color: #29b266;
+        }
+        .img__centrada_sm {
+            text-align:center;
+        }
+    }
+}

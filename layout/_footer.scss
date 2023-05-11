@@ -1,0 +1,19 @@
+footer {
+    background-color: #043e60;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    h5{
+        text-align: center;
+    }
+    p, ul, a{
+        color: #ecf8f6;
+        text-decoration: none;
+        text-align: center;
+    }
+    .maps{
+        position: relative;
+        text-align: center;
+    }
+}

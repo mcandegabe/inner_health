@@ -1,0 +1,30 @@
+body {
+    display: block;
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    h1 {
+        font-size: 35px;
+        color: #043e60;
+    }
+    h2{
+        font-size: 30px;
+        color: #043e60;
+        a{
+            font-size: 28px;
+            font-weight: bolder;
+            color: #29b266;
+            text-decoration: none;
+            font-style: italic;
+            letter-spacing: 5px;
+        }
+    }
+    h3{
+        font-size: 23px;
+        color: #29b266;
+    }
+    p, a, .desarrollo_webs p{
+        font-size: 16px;
+        color: black;
+        text-align: justify;
+    }
+}

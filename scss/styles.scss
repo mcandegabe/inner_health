@@ -123,10 +123,11 @@ header {
         max-width: fit-content;
         align-self: center;
         justify-self: center;
+        &:hover{
+            background-color:#5b6bb0;
+        }
     }
-    a:hover{
-        background-color:#5b6bb0;
-    }
+
     p{
         padding: 20px;
     }
@@ -151,11 +152,12 @@ header {
     -moz-box-shadow: 2px 2px 1px #224744;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+    &:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 }
-.index__capt:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
+.index__capt
 /** Fin Index Sitios **/
 /** Inicio Desarrollo Sitios **/
 
@@ -183,8 +185,7 @@ header {
         box-shadow: 1px 1px 1px 1px #3484D3;
     }
 }
-.desarrollo_webs{
-    a {
+.desarrollo_webs a{
         background-color: #5bb0a7;
         border-radius: 5px;
         text-transform: uppercase;
@@ -193,8 +194,7 @@ header {
         color: white;
         font-weight: bolder;
         font-size: 25px;
-    }
-    a:hover{
+    &:hover{
         background-color:#5b6bb0;
     }
 }
