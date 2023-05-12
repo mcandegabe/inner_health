@@ -1,18 +1,21 @@
+$azul-ppl: #043e60;
+$verde-ppl: #29b266;
+
 body {
     display: block;
     margin: 0px;
     font-family: Poppins, sans-serif;
     h1 {
         font-size: 35px;
-        color: #043e60;
+        color: $azul-ppl;
     }
     h2{
         font-size: 30px;
-        color: #043e60;
+        color: $azul-ppl;
         a{
             font-size: 28px;
             font-weight: bolder;
-            color: #29b266;
+            color: $verde-ppl;
             text-decoration: none;
             font-style: italic;
             letter-spacing: 5px;
@@ -20,7 +23,7 @@ body {
     }
     h3{
         font-size: 23px;
-        color: #29b266;
+        color: $verde-ppl;
     }
     p, a, .desarrollo_webs p{
         font-size: 16px;

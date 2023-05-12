@@ -9,23 +9,17 @@
     }
     hr{
         margin: 30px 10px 30px 10px;
-        color: #224744;
+        color: map-get($bg_verde_osc,color);
     }
     a{
-        background-color:#5bb0a7;
-        border-radius: 5px;
-        text-transform: uppercase;
-        padding: 20px;
-        text-decoration: none;
-        color: white;
+        @extend %btn_gral;
         max-width: fit-content;
         align-self: center;
         justify-self: center;
         &:hover{
-            background-color:#5b6bb0;
+            background-color:map-get($btn_sites,hover);
         }
     }
-
     p{
         padding: 20px;
     }
@@ -39,6 +33,7 @@
     }
     img{
         padding-right: 0px;
+        padding-left: 0px;
     }
 }
 .index__capt{
@@ -46,12 +41,11 @@
     border-radius: 20px;
     display: block;
     float: left;
-    box-shadow: 2px 2px 1px #224744;
-    -moz-box-shadow: 2px 2px 1px #224744;
+    box-shadow: 2px 2px 1px map-get($bg_verde_osc,color);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     &:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
     }
 }

@@ -1,6 +1,6 @@
 header {
     margin: 0px 20px;
-    border-radius: 5px;
+    @extend %rad_shadow;
     position: sticky; 
     top: 0;
     background-color: #d2f1ee;
@@ -10,8 +10,6 @@ header {
     flex-direction: row;
     align-content: stretch;
     align-items: center;
-    box-shadow: 2px 2px 1px #3b6d6970;
-    -moz-box-shadow: 2px 2px 1px #3b6d6970;
     z-index: 1;
     img {
         margin: 15px 30px 15px 30px;
@@ -31,8 +29,7 @@ header {
 }
 }
 .pil-navegacion .enlace-nav.activo { 
-    background-color: #224744;
+    background-color: map-get($bg_verde_osc,color);
     color: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 1px #3b6d6970;
+    @extend %rad_shadow;
 }

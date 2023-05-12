@@ -1,9 +1,24 @@
-@charset "UTF-8";
-@font-face {
-  font-family: "Poppins, sans-serif";
-  src: url("./fonts/Poppins-Regular.ttf");
+.pil-navegacion .enlace-nav.activo, header {
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
 }
-/** Inicio Estilos genéricos web **/
+
+#inicio_sitios #head_contacto, #inicio_sitios #head_sitio_flores, #inicio_sitios #head_sitio_algoritmo, #inicio_sitios #head_sitio_universidad {
+  margin: 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.desarrollo_webs a, .index_sitios a {
+  background-color: #5bb0a7;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
 body {
   display: block;
   margin: 0px;
@@ -35,11 +50,8 @@ body p, body a, body .desarrollo_webs p {
   text-align: justify;
 }
 
-/** Final Estilos genéricos web **/
-/** Inicio Estilos Header **/
 header {
   margin: 0px 20px;
-  border-radius: 5px;
   position: sticky;
   top: 0;
   background-color: #d2f1ee;
@@ -49,8 +61,6 @@ header {
   flex-direction: row;
   align-content: stretch;
   align-items: center;
-  box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
-  -moz-box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
   z-index: 1;
 }
 header img {
@@ -73,12 +83,8 @@ header a {
 .pil-navegacion .enlace-nav.activo {
   background-color: #224744;
   color: white;
-  border-radius: 5px;
-  box-shadow: 2px 2px 1px rgba(59, 109, 105, 0.4392156863);
 }
 
-/** Final Estilos Header **/
-/** Inicio Estilos Main + Vision/Mision **/
 .main_index {
   text-align: center;
   margin-top: 20px;
@@ -104,8 +110,6 @@ header a {
   text-align: center;
 }
 
-/** Fin Estilos Main + Vision/Mision **/
-/** Inicio Index Sitios **/
 .index_sitios {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -121,12 +125,6 @@ header a {
   color: #224744;
 }
 .index_sitios a {
-  background-color: #5bb0a7;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
@@ -147,6 +145,7 @@ header a {
 }
 .index_sitios img {
   padding-right: 0px;
+  padding-left: 0px;
 }
 
 .index__capt {
@@ -155,56 +154,43 @@ header a {
   display: block;
   float: left;
   box-shadow: 2px 2px 1px #224744;
-  -moz-box-shadow: 2px 2px 1px #224744;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .index__capt:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.index__capt #inicio_sitios {
+#inicio_sitios {
   text-align: -webkit-center;
 }
-.index__capt #inicio_sitios #head_sitio_universidad {
-  margin: 30px;
+#inicio_sitios #head_sitio_universidad {
   background-color: rgba(41, 178, 102, 0.1490196078);
-  border-radius: 15px;
-  padding: 20px;
   box-shadow: 1px 1px 1px 1px rgba(41, 178, 102, 0.5215686275);
 }
-.index__capt #inicio_sitios #head_sitio_algoritmo {
-  margin: 30px;
+#inicio_sitios #head_sitio_algoritmo {
   background-color: rgba(225, 120, 0, 0.1764705882);
-  border-radius: 15px;
-  padding: 20px;
   box-shadow: 1px 1px 1px 1px rgba(225, 120, 0, 0.462745098);
 }
-.index__capt #inicio_sitios #head_sitio_flores {
-  margin: 30px;
+#inicio_sitios #head_sitio_flores {
   background-color: rgba(52, 131, 211, 0.1176470588);
-  border-radius: 15px;
-  padding: 20px;
   box-shadow: 1px 1px 1px 1px #3484D3;
+}
+#inicio_sitios #head_contacto {
+  background-color: rgba(93, 41, 178, 0.0823529412);
+  box-shadow: 1px 1px 1px 1px #5d29b2;
 }
 
 .desarrollo_webs a {
-  background-color: #5bb0a7;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
   font-weight: bolder;
   font-size: 25px;
 }
 .desarrollo_webs a:hover {
   background-color: #5b6bb0;
+  color: white;
 }
 
-/** Fin Desarrollo Sitios **/
-/** Inicio Footer **/
 footer {
   background-color: #043e60;
   margin-top: 20px;
@@ -224,7 +210,5 @@ footer .maps {
   position: relative;
   text-align: center;
 }
-
-/** Fin Footer **/
 
 /*# sourceMappingURL=styles.css.map */

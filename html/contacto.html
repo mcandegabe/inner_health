@@ -44,150 +44,111 @@
     <!-- inicio main -->
     <main>
         <section id="inicio_sitios">
-            <div id="head_sitios" class="container main">
-                <!--Section: Contact v.2-->
-<section class="mb-4">
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctenos</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Dudas, consultas, proyectos y propuestas, ¡contáctese con nosotros!</p>
-    <div class="row">
-        <!--Grid column-->
-        <div class="col-md-8 mb-md-0 mb-4">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
+            <div id="head_contacto" class="container main desarrollo_webs">
+                <section class="mb-4">
+                  <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctenos</h2>
+                  <p class="text-center w-responsive mx-auto mb-5">Dudas, consultas, proyectos y propuestas, ¡contáctese con nosotros!</p>
+                  <div class="row">
+                      <div class="col-md-8 mb-md-0 mb-4">
+                          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <div class="md-form mb-0">
+                                        <label for="name" class="">Nombre Completo</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="md-form mb-0">
+                                        <label for="email" class="">Su dirección de Email</label>
+                                        <input type="text" id="email" name="email" class="form-control">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="md-form mb-0">
+                                        <label for="subject" class="">Asunto</label>
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="md-form">
+                                        <label for="message">Su mensaje</label>
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                          <div class="text-center text-md-left">
+                              <a class="btn" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                          </div>
+                          <div class="status"></div>
+                      </div>
+                      <div class="col-md-4 text-center">
+                          <ul class="list-unstyled mb-0">
+                              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                  <h2>Inner Health Group LLC</h2>
+                                  <p>728 SW 100th Court Cicle, Miami FL 33174, USA</p>
+                              </li>
+                              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                  <p>+ 54 9 11 2187 7566</p>
+                              </li>
+                              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                  <p>sales@innerhealthgrp.com</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </section>
+                          </div>
+                      </section>
+                  </main>
+              <footer class="text-white text-center text-lg-start">
+                <div class="container-fluid p-4">
+                  <div class="row">
                     <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Nombre Completo</label>
-                        </div>
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                      <h5 class="text-uppercase">Inner health Group LLC</h5>
+                      <p>
+                        728 SW 100th Court Cicle, Miami FL 33174, USA
+                      </p>
                     </div>
                     <!--Grid column-->
-
                     <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Su dirección de Email</label>
-                        </div>
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0 maps ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2573753939696!2d-80.36091432486562!3d25.762061077351778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b8d1325b1749%3A0xd5dbcff92a632581!2s728%20SW%20100th%20Ct%20Cir%2C%20Miami%2C%20FL%2033174%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1682694645829!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!--Grid column-->
-
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                      <h5 class="text-uppercase">Productos y Proyectos</h5>
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="../html/universidad.html" class="text-white">Universidad Candegabe</a>
+                        </li>
+                        <li>
+                          <a href="../html/algoritmo.html" class="text-white">Algoritmo Candegabe</a>
+                        </li>
+                        <li>
+                          <a href="../html/flowers.html" class="text-white">Flowers Code</a>
+                        </li>
+                        <li>
+                          <a href="../html/contacto.html" class="text-white">Contacto</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Asunto</label>
-                        </div>
-                    </div>
+                <!-- Grid container -->
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  2023 Copyright:
+                  <a class="text-white" href="https://innerhealthgrp.com/">InnerHealthGrp.com</a>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Su mensaje</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-            </div>
-            <div class="status"></div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-4 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <h2>Inner Health Group LLC</h2>
-                    <p>728 SW 100th Court Cicle, Miami FL 33174, USA</p>
-                </li>
-
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 54 9 11 2187 7566</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>sales@innerhealthgrp.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
-            </div>
-        </section>
-    </main>
-<!-- fin main -->
-<footer class="text-white text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container-fluid p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Inner health Group LLC</h5>
-        <p>
-          728 SW 100th Court Cicle, Miami FL 33174, USA
-        </p>
-      </div>
-      <!--Grid column-->
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0 maps ratio-16x9">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2573753939696!2d-80.36091432486562!3d25.762061077351778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b8d1325b1749%3A0xd5dbcff92a632581!2s728%20SW%20100th%20Ct%20Cir%2C%20Miami%2C%20FL%2033174%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1682694645829!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <!--Grid column-->
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Productos y Proyectos</h5>
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="../html/universidad.html" class="text-white">Universidad Candegabe</a>
-          </li>
-          <li>
-            <a href="../html/algoritmo.html" class="text-white">Algoritmo Candegabe</a>
-          </li>
-          <li>
-            <a href="../html/flowers.html" class="text-white">Flowers Code</a>
-          </li>
-          <li>
-            <a href="../html/contacto.html" class="text-white">Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    2023 Copyright:
-    <a class="text-white" href="https://innerhealthgrp.com/">InnerHealthGrp.com</a>
-  </div>
   <!-- Copyright -->
 </footer>
 </body>

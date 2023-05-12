@@ -1,0 +1,32 @@
+#inicio_sitios{
+    text-align: -webkit-center;
+    #head_sitio_universidad{
+        @extend %head_sitios;
+        background-color: #29b26626;
+        box-shadow: map-get($head_sitios, sombra) #29b26685;
+    }
+    #head_sitio_algoritmo{
+        @extend %head_sitios;
+        background-color: #e178002d;
+        box-shadow: map-get($head_sitios, sombra) #e1780076;
+    }
+    #head_sitio_flores{
+        @extend %head_sitios;
+        background-color: #3483d31e;
+        box-shadow: map-get($head_sitios, sombra) #3484D3;
+    }
+    #head_contacto{
+        @extend %head_sitios;
+        background-color: #5d29b215;
+        box-shadow: map-get($head_sitios, sombra) #5d29b2;
+    }
+}
+.desarrollo_webs a{
+    @extend %btn_gral;
+    font-weight: bolder;
+    font-size: 25px;
+    &:hover{
+        background-color:map-get($btn_sites,hover);
+        color: white;
+    }
+}
