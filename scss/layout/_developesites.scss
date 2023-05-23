@@ -5,7 +5,11 @@
     padding-right: 15px;
 }
 #inicio_sitios{
+    
     text-align: -webkit-center;
+    h1{
+        font-size: 30px;
+    }
     #head_sitio_universidad{
         @extend %head_sitios;
         background-color: #29b26626;

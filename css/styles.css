@@ -23,6 +23,7 @@ body {
   display: block;
   margin: 0px;
   font-family: Poppins, sans-serif;
+  overflow-x: hidden;
 }
 body h1 {
   font-size: 35px;
@@ -88,6 +89,9 @@ header a {
 .main_index {
   text-align: center;
   margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 15px;
 }
 
 #vision_mision {
@@ -126,7 +130,6 @@ header a {
   color: #224744;
 }
 .index_sitios a {
-  max-width: fit-content;
   align-self: center;
   justify-self: center;
 }
@@ -146,7 +149,6 @@ header a {
 }
 .index_sitios .sitios img {
   margin: 30px 0px;
-  max-width: 95%;
 }
 .index_sitios img {
   padding-right: 0px;
@@ -166,8 +168,18 @@ header a {
   transform: scale(1.05);
 }
 
+.contenedor_gral {
+  overflow-x: hidden;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #inicio_sitios {
   text-align: -webkit-center;
+}
+#inicio_sitios h1 {
+  font-size: 30px;
 }
 #inicio_sitios #head_sitio_universidad {
   background-color: rgba(41, 178, 102, 0.1490196078);
